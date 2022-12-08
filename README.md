@@ -4,7 +4,7 @@ This is the official code of AAAI'23 paper **Boosting Point Clouds Rendering via
 
 ## [Paper](https://arxiv.org/abs/2210.15107)
 
-### Installation
+## Installation
 
 ```
 conda create -n bpcr python=3.8
@@ -22,7 +22,7 @@ pip install open3d
 python setup.py develop
 ```
 
-### Data Preparation
+## Data Preparation
 
 The layout should look like this
 
@@ -67,7 +67,7 @@ python run_rasterize.py --config=configs/chair.txt
 
 Please change the config file to run other scenes. The fragments would be saved in ``./data/fragments``.
 
-### Training
+## Training
 
 ```
 python main.py --config=configs/chair.txt
@@ -79,7 +79,7 @@ Before training, please ensure that the fragments of this scene already exist. T
 tensorboard --logdir=logs
 ```
 
-### Acknowledgements and Citation
+## Acknowledgements and Citation
 
 The code in rasterization borrows a lot from Pytorch3D. 
 
