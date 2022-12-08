@@ -1,0 +1,31 @@
+expname = materials
+device = 'cuda:0'
+logdir = ./logs
+datadir = ./data/nerf_synthetic/materials
+pcdir = ./data/pc/nerf/materials.ply
+dataset = nerf
+
+radius = 0.005
+frag_path = './data/fragments/materials'
+H = 400
+W = 400
+train_size = 400
+
+dim = 8
+
+mlp_lr = 5e-4
+u_lr = 1.5e-4
+
+scale_max = 1.
+scale_min = 0.111
+
+pad = 100
+
+pix_mask
+
+U = 4
+udim = npbg
+vgg_l = 0.01
+edge_mask = 0
+test_freq = 10
+vid_freq = 30

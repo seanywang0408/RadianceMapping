@@ -1,0 +1,31 @@
+expname = dtu_110
+device = 'cuda:0'
+logdir = ./logs
+datadir = ./data/dtu/dtu_110
+pcdir = ./data/dtu/dtu_110/npbgpp.ply
+dataset = dtu
+
+
+radius = 0.003
+frag_path = './data/fragments/dtu_110'
+H = 1200
+W = 1600
+train_size = 800
+
+dim = 8
+
+mlp_lr = 5e-4
+u_lr = 1.5e-4
+
+scale_max = 1.
+scale_min = 0.083
+pad = 0
+
+xyznear
+
+U = 4
+udim = npbg
+vgg_l = 0.01
+edge_mask = 0
+test_freq = 20
+vid_freq = 60
