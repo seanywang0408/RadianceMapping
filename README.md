@@ -19,7 +19,7 @@ pip install tensorboard
 pip install ConfigArgParse
 pip install open3d
 
-python setup.py develop
+python setup.py install
 ```
 
 ## Data Preparation
