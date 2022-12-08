@@ -1,4 +1,4 @@
-## Boosting Point Clouds Rendering via Radiance Mapping
+## Boosting Point Clouds Rendering via Radiance Mapping 
 
 This is the official code of AAAI'23 paper **Boosting Point Clouds Rendering via Radiance Mapping** written in PyTorch. 
 
