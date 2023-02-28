@@ -1,6 +1,6 @@
-## Boosting Point Clouds Rendering via Radiance Mapping 
+## Boosting Point Clouds Rendering via Radiance Mapping
 
-This is the official code of AAAI'23 paper **Boosting Point Clouds Rendering via Radiance Mapping** written in PyTorch. 
+This is the official code of AAAI'23 paper **Boosting Point Clouds Rendering via Radiance Mapping** written in PyTorch.
 
 ## [Paper](https://arxiv.org/abs/2210.15107)
 
@@ -57,7 +57,7 @@ code
 
 **DTU**: Please download images and masks from [IDR](https://github.com/lioryariv/idr) and camera parameters from [PatchmatchNet](https://github.com/FangjinhuaWang/PatchmatchNet). We use the point clouds provided by [npbg++](https://github.com/rakhimovv/npbgpp).
 
-**ScanNet**: Please download data from [ScanNet](http://www.scan-net.org/) and run ``select.py`` to select the frames. We use the point cloud provided by [ScanNet](http://www.scan-net.org/) for ``scene0000_00`` and point clouds provided by [npbg++](https://github.com/rakhimovv/npbgpp) for two other scenes. For ``scene0043_00``, the frames after 1000 are ignored because the camera parameters are ``-inf``.
+**ScanNet**: Please download data from [ScanNet](http://www.scan-net.org/) and run ``select_scan.py`` to select the frames. We use the point cloud provided by [ScanNet](http://www.scan-net.org/) for ``scene0000_00`` and point clouds provided by [npbg++](https://github.com/rakhimovv/npbgpp) for two other scenes. For ``scene0043_00``, the frames after 1000 are ignored because the camera parameters are ``-inf``.
 
 ### Rasterization
 
@@ -81,11 +81,11 @@ tensorboard --logdir=logs
 
 ## Acknowledgements and Citation
 
-The code in rasterization borrows a lot from Pytorch3D. 
+The code in rasterization borrows a lot from Pytorch3D.
 
 If you find this project useful in your research, please cite the following papers:
 
-``` bibtex
+```bibtex
 @article{huang2022boosting,
   title={Boosting Point Clouds Rendering via Radiance Mapping},
   author={Huang, Xiaoyang and Zhang, Yi and Ni, Bingbing and Li, Teng and Chen, Kai and Zhang, Wenjun},
@@ -93,4 +93,3 @@ If you find this project useful in your research, please cite the following pape
   year={2022}
 }
 ```
-
