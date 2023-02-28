@@ -24,7 +24,7 @@ python setup.py install
 
 ## Data Preparation
 
-The layout should look like this
+The layout should look like this 
 
 ```
 code
