@@ -54,6 +54,7 @@ code
 ```
 
 **NeRF-Synthetic**: Please download dataset from [NeRF](https://github.com/bmild/nerf) and put the unpacked files in ``./data/nerf_synthetic``. To generate point clouds, run [Point-NeRF](https://github.com/Xharlie/pointnerf) and save the point clouds in ``./data/pc/nerf``.
+You can also download point clouds from [here](https://drive.google.com/drive/folders/1qcEk97RgwCAzzmXUTUXCGNsGzwYPicLA).
 
 **DTU**: Please download images and masks from [IDR](https://github.com/lioryariv/idr) and camera parameters from [PatchmatchNet](https://github.com/FangjinhuaWang/PatchmatchNet). We use the point clouds provided by [npbg++](https://github.com/rakhimovv/npbgpp).
 
