@@ -86,11 +86,20 @@ The code in rasterization borrows a lot from Pytorch3D.
 
 If you find this project useful in your research, please cite the following papers:
 
+```
+Huang X, Zhang Y, Ni B, et al. Boosting point clouds rendering via radiance mapping[C]//Proceedings of the AAAI conference on artificial intelligence. 2023, 37(1): 953-961.
+```
+
+or in bibtex:
+
 ```bibtex
-@article{huang2022boosting,
-  title={Boosting Point Clouds Rendering via Radiance Mapping},
+@inproceedings{huang2023boosting,
+  title={Boosting point clouds rendering via radiance mapping},
   author={Huang, Xiaoyang and Zhang, Yi and Ni, Bingbing and Li, Teng and Chen, Kai and Zhang, Wenjun},
-  journal={arXiv preprint arXiv:2210.15107},
-  year={2022}
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={37},
+  number={1},
+  pages={953--961},
+  year={2023}
 }
 ```
