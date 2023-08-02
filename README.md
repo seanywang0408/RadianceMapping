@@ -14,7 +14,7 @@ conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
 pip install matplotlib
 pip install opencv-python
 pip install lpips
-pip install git+https://github.com/francois-rozet/piqa
+pip install piqa==1.1.8
 pip install tensorboard
 pip install ConfigArgParse
 pip install open3d
